@@ -1,0 +1,8 @@
+datadir=@ABSBUILDDIR@
+
+Name: Big
+Description: Big models
+URL: https://projects.coin-or.org/svn/Data/Big
+Version: @PACKAGE_VERSION@
+Libs:
+Cflags:

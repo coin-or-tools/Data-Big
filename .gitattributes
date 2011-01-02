@@ -2,6 +2,14 @@
 /AUTHORS -text
 /LICENSE -text
 /README -text
+/coindatabig-uninstalled.pc.in -text
+/coindatabig.pc.in -text
+/config.guess -text
+/config.sub -text
 /configure -text
 /configure.ac -text
+/depcomp -text
+/install-sh -text
+/ltmain.sh -text
+/missing -text
 /mkc7.mps.gz -text svneol=unset#application/x-gzip

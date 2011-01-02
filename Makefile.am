@@ -1,6 +1,6 @@
 # Copyright (C) 2006 International Business Machines and others.
 # All Rights Reserved.
-# This file is distributed under the Common Public License.
+# This file is distributed under the Eclipse Public License.
 
 ## $Id$
 
@@ -16,10 +16,13 @@ EXTRA_DIST = $(EXAMPLE_FILES) README AUTHORS LICENSE
 
 DISTCLEANFILES = $(EXAMPLE_CLEAN_FILES)
 
-datacoindir = $(prefix)/share/coin/Data/Big
+datacoindir = $(datadir)/coin/Data/Big
 datacoin_DATA = $(EXAMPLE_FILES)
 
-coindocdir = $(prefix)/share/doc/coin/Data/Big
+coindocdir = $(datadir)/coin/doc/Data/Big
 coindoc_DATA = README AUTHORS LICENSE
+
+pkgconfiglibdir = $(libdir)/pkgconfig
+pkgconfiglib_DATA = coindatabig.pc
 
 include BuildTools/Makemain.inc
