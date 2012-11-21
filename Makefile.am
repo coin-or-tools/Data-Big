@@ -12,15 +12,12 @@ AUTOMAKE_OPTIONS = foreign
 #     List files that should be distributed and possibly cleaned       #
 ########################################################################
 
-EXTRA_DIST = $(EXAMPLE_FILES) README AUTHORS LICENSE
+EXTRA_DIST = $(EXAMPLE_FILES)
 
 DISTCLEANFILES = $(EXAMPLE_CLEAN_FILES)
 
 datacoindir = $(datadir)/coin/Data/Big
 datacoin_DATA = $(EXAMPLE_FILES)
-
-coindocdir = $(datadir)/coin/doc/Data/Big
-coindoc_DATA = README AUTHORS LICENSE
 
 pkgconfiglibdir = $(libdir)/pkgconfig
 pkgconfiglib_DATA = coindatabig.pc

@@ -1,7 +1,4 @@
 * text=auto !eol
-/AUTHORS -text
-/LICENSE -text
-/README -text
 /coindatabig-uninstalled.pc.in -text
 /coindatabig.pc.in -text
 /config.guess -text
